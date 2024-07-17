@@ -7,6 +7,13 @@
   font-variation-settings:"slnt" 0;
 }
 
+.miama-original {
+    font-family: "Miama", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+  }
+
 *{
     padding: 0;
     margin: 0;
@@ -81,7 +88,8 @@ header{
 .banner-text h1{
     font-size: 4.87rem;
     width: 32.5rem;
-    border: 1px solid chocolate;
+    line-height: 6rem;
+    margin-top: 70px;
 }
 
 .banner-text p{
@@ -91,15 +99,76 @@ header{
 
 
 .banner-df-font{
-    
-
+    font-family: 'Miama';
 
 }
 
 .banner-img{
+  margin-left: 200px;
     width: 100%;
     height: 100%;
+    
 
 }
 
+.banner-btn-1{
+    border: none;
+    font-size: 1.125rem;
+    padding: 16px 45.5px;
+    border-radius: 42px;
+    margin-top: 28px;
+}
+.banner-btn-2{
+    background-color: black;
+    font-size: 1.125rem;
+    padding: 16px 45.5px;
+    border-radius: 42px;
+    margin-top: 28px;
+    border: 1px solid #ffffff;
+    margin-left: 14px;
+}
 
+.workout-videos{
+    width: 193px;
+    height: 98px;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 260px;
+    right: 140px; 
+    border-radius: 12px;
+    padding-left: 24px;
+    padding-top: 17px;
+}
+
+.workout-videos h3{
+    font-size: 40px;
+}
+.workout-videos p {
+    color: rgba(255, 255, 255, 0.65) ;
+}
+
+.workout-tutorial{
+    width: 206px;
+    height: 96px;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    bottom: 63px;
+    left: 820px; 
+    border-radius: 12px;
+    padding-left: 24px;
+    align-items: center;
+
+}
+.workout-tutorial h4{
+    font-size: 24px;
+}
+.workout-tutorial p {
+    color: rgba(255, 255, 255, 0.65) ;
+}
+.workout-tutorial-round{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #E6533C;
+    margin-right: 12px;
+}
